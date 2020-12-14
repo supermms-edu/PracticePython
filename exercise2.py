@@ -3,9 +3,14 @@
 x = int(input("Enter a number\n"))
  
 if x%2 == 0:
-  print("It's an even number!")
+  if x%4 == 0:
+    print("It's an even number, and it is divisible by four!")
+  else:
+    print("It's an even number!")
 else:
   print("It's an odd number!")
+  
+
 
 
 
